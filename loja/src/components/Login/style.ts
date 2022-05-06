@@ -12,6 +12,7 @@ export const Container = styled.div`
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 
     background-color: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
 
     
     h4 {
@@ -41,15 +42,21 @@ export const Container = styled.div`
 `
 
 export const Button = styled.button`
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-bottom: 2rem;
-    padding: .5rem 3rem;
+    padding: .7rem 4rem;
+
     font-weight: bold;
+    font-size: 1.2rem;
+    
     background-color: #1976a9;
+
     border: none;
     border-radius: 0.5rem;
+    
     cursor: pointer;
     transition: filter 0.5s;
+    color: #fff;
 
     &:hover{
         filter: brightness(0.8);
