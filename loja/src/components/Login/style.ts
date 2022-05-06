@@ -14,10 +14,9 @@ export const Container = styled.div`
     background-color: rgba(255, 255, 255, 0.1);
 
     
-    h3 {
-        margin: 2rem;
-        margin-bottom: 1rem;
-        color: #fff;
+    h4 {
+        color: #1976a9;
+        margin-bottom: 3rem;
         font-size: 2.5rem;
         font-weight: bold;
     }
@@ -27,13 +26,17 @@ export const Container = styled.div`
         margin-top: 0.5rem;
     }
     label {
-        color: white;
+        color: gray;
     }
     input {
         border-radius: 0.5rem;
     }
     input:hover {
         filter: brightness(0.1);
+    }
+
+    .register {
+        margin-top: 1rem;
     }
 `
 

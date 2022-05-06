@@ -5,7 +5,7 @@ import { Button, Container } from "./style";
 export const Login = () => {
   return (
     <Container>
-      <h3>Login</h3>
+      <h4>Login</h4>
         <TextField
           id="outlined-text-input"
           label="Username"
@@ -20,9 +20,13 @@ export const Login = () => {
           autoComplete="current-password"
           sx={{background: "#1976d21a" , borderRadius: ".5rem"}}
         />
-      
+        <div className="register">
+          <span>Ainda não se cadastrou? <a href="/">Registre-se</a> </span>
+        </div>
 
       <Button>Entrar</Button>
+
+
     </Container>
   );
 };
